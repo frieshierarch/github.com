@@ -1,0 +1,8 @@
+html p{
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 48, 172);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
