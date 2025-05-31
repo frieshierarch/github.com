@@ -4,5 +4,23 @@ html p{
     color: rgb(56, 48, 172);
 }
 body{
+    margin:0;
     background-color: rgb(255, 255, 255);
+}
+.class{color: #cf6868;}
+.thick{font-weight: 990;}
+.id{color: rgb(77, 148, 253);}
+#header{
+    background-image: url("https://th.bing.com/th/id/R.5bf53870407ca9449ecfe84ad6527d7a?rik=m1V1%2b6lKYhQe9A&riu=http%3a%2f%2fwww.myzeo.com%2fwp-content%2fuploads%2f2019%2f06%2fwave.ngsversion.1500050062134.adapt_.1900.1.jpg&ehk=rM3rV0RoO52c7YmdTE3Mjv0jT71Few%2bQFCWw1V01ygs%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    height:50%;
+    color: rgb(56, 48, 172); 
+    font-size:4rem;
+    border-radius: 0 0 1.2rem 1.2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+
 }
