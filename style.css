@@ -1,21 +1,32 @@
-html p{
+html p {
     font-size: 1rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(56, 48, 172);
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     background-color: rgb(255, 255, 255);
 }
-.class{color: #cf6868;}
-.thick{font-weight: 990;}
-.id{color: rgb(77, 148, 253);}
-#header{
+
+.class {
+    color: #cf6868;
+}
+
+.thick {
+    font-weight: 990;
+}
+
+.id {
+    color: rgb(77, 148, 253);
+}
+
+#header {
     background-image: url("https://th.bing.com/th/id/R.5bf53870407ca9449ecfe84ad6527d7a?rik=m1V1%2b6lKYhQe9A&riu=http%3a%2f%2fwww.myzeo.com%2fwp-content%2fuploads%2f2019%2f06%2fwave.ngsversion.1500050062134.adapt_.1900.1.jpg&ehk=rM3rV0RoO52c7YmdTE3Mjv0jT71Few%2bQFCWw1V01ygs%3d&risl=&pid=ImgRaw&r=0");
     background-size: cover;
-    height:50%;
-    color: rgb(56, 48, 172); 
-    font-size:3rem;
+    height: 50%;
+    color: rgb(56, 48, 172);
+    font-size: 3rem;
     border-radius: 0 0 1.2rem 1.2rem;
 
     display: flex;
@@ -24,3 +35,47 @@ body{
     padding-bottom: 5%;
 
 }
+
+.navbar {
+    background-color: #8fc0ff;
+    display: flex;
+    justify-content: center;
+}
+ .nav-links{
+    list-style: none;
+    display: flex;
+    gap:3em;
+ }
+ .nav-links li a{
+    text-decoration: none;
+    padding: 1em 1em;
+    border-radius:1em ;
+    transition: 1s;
+ }
+ .nav-links li a:hover{
+    background-color:#fbffd9;
+ }
+ .title{
+    text-align: center;
+    padding: 0.5em;
+ }
+ .current{
+    text-decoration:underline dotted rgb(77, 148, 253) 0.3em;
+ }
+ .accordion-header{
+    width: 100%;
+    background-color: #8fc0ff;
+    border:none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1em;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    transition: 0.8s;
+ }
+ .accordion-content{
+    display: none;
+ }
+ .accordion-header:hover{
+    background-color: #fbffd9;
+ }
