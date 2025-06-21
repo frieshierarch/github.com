@@ -1,7 +1,7 @@
 html p {
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(56, 48, 172);
+    color: rgb(97, 188, 216);
 }
 
 body {
@@ -79,9 +79,7 @@ body {
  .accordion-header:hover{
     background-color: #fbffd9;
  }
- .hidden{
-   display: none !important;
- }
+ 
 .blog-entry{
    display: flex;
    align-items: center;
@@ -94,7 +92,10 @@ body {
 .blog-entry img{
    width: 20%;
    border-radius: 0 1.5em 1.5em 0;
-}
+   }
+.hidden{
+   display: none ;
+ }
 
 #enter-password{
    text-align: center;
